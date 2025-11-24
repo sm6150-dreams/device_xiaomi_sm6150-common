@@ -235,6 +235,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
 
+# Oneplus Dolby
+$(call inherit-product, vendor/oneplus/dolby/dolby.mk)
+
 # Partitions
 PRODUCT_PACKAGES += \
     vendor_bt_firmware_mountpoint \
