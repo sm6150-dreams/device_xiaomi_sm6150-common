@@ -29,6 +29,16 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 
+# Mist
+ro.mist.display=1080 x 2400, 120 hz
+ro.mist.battery=5020mah
+ro.mist.soc=Snapdragon® 732G
+ro.mist.camera=108 MP + 8 MP + 5 MP + 2 MP
+ro.mist.front=16MP
+ro.mist.platform=SM7150-AC
+ro.mist.screen=6.67' DotDisplay AMOLED
+ro.mist.device.name=Redmi Note 10 Pro
+
 # Radio
 ril.subscription.types=RUIM
 
