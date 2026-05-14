@@ -389,8 +389,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml
 
 # ViPER4Android FX
-PRODUCT_PACKAGES += \
-    ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
